@@ -1,0 +1,94 @@
+package com.jspiders.musicPlayer.songs;
+
+public class Song {
+	private int id;
+	private String name;
+	private String music;
+	private double length;
+	private String singer;
+	private String composer;
+	private String lyrisist;
+	
+	public Song(int id,String name,String music,double length,String singer,
+	String composer,String lyrisist) {
+		this.id=id;
+		this.name=name;
+		this.music=music;
+		this.length=length;
+		this.singer=singer;
+		this.composer=composer;
+		this.lyrisist=lyrisist;
+		
+	}
+	
+	
+
+	public Song() {
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+	public int getId() {
+		return id;
+	}
+	
+	public void setId(int id) {
+		this.id=id;
+	}
+	public String getName() {
+		return name;
+	
+	}
+	  void setName(String name) {
+		this.name=name;
+
+	}
+	  
+	  public String getMusic() {
+			return music;
+		}
+		
+		public void setMusic(String music ) {
+			this.music=music;
+		}
+		
+	public double getlength() {
+		return length;
+	
+	}
+	private void setLength(double length) {
+		this.length=length;
+
+	}
+	
+	public String getSinger() {
+		return singer;
+	
+	}
+	private void setSinger(String singer) {
+		this.singer=singer;
+
+	}
+	
+	public String getComposer() {
+		return composer;
+	
+	}
+	private void setComposer(String composer) {
+		this.composer=composer;
+
+	}
+	
+	public String getLyrisist() {
+		return lyrisist;
+	
+	}
+	private void setLyrisist(String lyString) {
+		this.lyrisist=lyrisist;
+
+	}
+	
+
+}
+
